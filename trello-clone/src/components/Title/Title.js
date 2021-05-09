@@ -6,13 +6,19 @@ import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 const useStyle = makeStyles((themes) => ({
   editableTitle:{
     marginLeft: themes.spacing(1),
+    fontSize: "1.2rem",
+    fontWeight: "bold",
     display: 'flex',
   },
   editableTitleContainer: {
-    flexGrow: 1
+    flexGrow: 1,
+    fontSize: "1.2rem",
+    fontWeight: "bold",
   },
   input: {
     margin: themes.spacing(1),
+    fontSize: "1.2rem",
+    fontWeight: "bold",
     "&: focus": {
       background: "#ddd",
     }
@@ -28,6 +34,7 @@ function Title(){
       {open ?
         (<div className="">
           <InputBase value="To do"
+            autoFocus
             inputProps={{
               className: classes.input,
             }}

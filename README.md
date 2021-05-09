@@ -14,8 +14,8 @@
 # To do:
 - [X] list component
 - [X] list title
-- [ ] card component
-- [ ] input component
+- [X] card component
+- [X] input component
 - [ ] initialize data
 - [ ] add card to list
 - [ ] add new list
