@@ -2,7 +2,7 @@
 #### An application for a test | by: Post2B
 - [X] Create tasks inside columns;
 - [ ] Can create tags and "tagear" the tasks; (for example: "important", "review")
-- [ ] Can create multiple task tables;
+- [X] Can create multiple task tables;
 - [ ] Move tasks between columns in a frame;
 
 # Observations :eyes::
@@ -19,7 +19,7 @@
 - [X] initialize data
 - [X] add card to list
 - [X] add new list
-- [ ] update list title
+- [X] update list title
 - [ ] drage and drop card in the same list
 - [ ] drage and drop card in different list
 - [ ] drage and drop list

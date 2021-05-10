@@ -56,8 +56,23 @@ function App() {
     setData(newState);
   }
 
+  const updateListTitle = (title, listId) => {
+    const list = data.lists[listId];
+    list.title = title;
+
+    const newState = {
+      ...data,
+      lists: {
+        ...data.list,
+        [listId]: list
+      }
+    }
+
+    setData(newState);
+  }
+
   return (
-    <StoreApi.Provider value={{addMoreCard, addMoreList}}>
+    <StoreApi.Provider value={{addMoreCard, addMoreList, updateListTitle}}>
       <div className={classes.root}>
         {data.listIds.map((listId) => {
           const list = data.lists[listId];

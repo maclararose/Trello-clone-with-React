@@ -7,7 +7,7 @@ import InputContainer from '../Input/InputContainer';
 
 const useStyle = makeStyles((themes) => ({
   root:{
-    width: "300px",
+    minWidth: "300px",
     backgroundColor:"#DDD",
     marginLeft: themes.spacing(1),
     
@@ -20,7 +20,7 @@ function List({ list }){
     <div>
       <Paper className={classes.root}>
         <CssBaseline />
-        <Title title={list.title}/>
+        <Title title={list.title} listId={list.id}/>
         {list.cards.map((card) => (
           <Card key={card.id} card={card} />
         ))}
