@@ -1,6 +1,6 @@
 # A clone of the trello application :computer: :memo:
 #### An application for a test | by: Post2B
-- [ ] Create tasks inside columns;
+- [X] Create tasks inside columns;
 - [ ] Can create tags and "tagear" the tasks; (for example: "important", "review")
 - [ ] Can create multiple task tables;
 - [ ] Move tasks between columns in a frame;
@@ -17,7 +17,7 @@
 - [X] card component
 - [X] input component
 - [X] initialize data
-- [ ] add card to list
+- [X] add card to list
 - [ ] add new list
 - [ ] update list title
 - [ ] drage and drop card in the same list
