@@ -16,7 +16,7 @@
 - [X] list title
 - [X] card component
 - [X] input component
-- [ ] initialize data
+- [X] initialize data
 - [ ] add card to list
 - [ ] add new list
 - [ ] update list title
@@ -24,7 +24,8 @@
 - [ ] drage and drop card in different list
 - [ ] drage and drop list
 - [ ] navigation bar
-- [ ] 
+- [ ] sidemenu
+- [ ] Boxmenu
 
 ## Status:
 :warning: Under developmente - 06/05/2021

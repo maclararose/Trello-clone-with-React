@@ -9,12 +9,12 @@ const useStyle = makeStyles((theme) => ({
   },
 }));
 
-function Card() {
+function Card({ card }) {
   const classes = useStyle();
 
   return(
     <div>
-      <Paper className={classes.card}>Make test in React</Paper>
+      <Paper className={classes.card}>{card.content}</Paper>
     </div>
   );
 }
