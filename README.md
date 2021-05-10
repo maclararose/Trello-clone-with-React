@@ -18,7 +18,7 @@
 - [X] input component
 - [X] initialize data
 - [X] add card to list
-- [ ] add new list
+- [X] add new list
 - [ ] update list title
 - [ ] drage and drop card in the same list
 - [ ] drage and drop card in different list

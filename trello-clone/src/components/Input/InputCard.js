@@ -24,25 +24,26 @@ const useStyle = makeStyles((theme) => ({
   },
 }));
 
-function InputCard({setOpen, listId}){
+function InputCard({setOpen, listId, type}){
   const classes = useStyle();
-  const {addMoreCard} = useContext(StoreApi);
-  const [cardTitle, setCardTitle] = useState('');
+  const {addMoreCard, addMoreList} = useContext(StoreApi);
+  const [title, setTitle] = useState('');
 
   const handleOnChange = (element) => {
-    setCardTitle(element.target.value);
+    setTitle(element.target.value);
   };
 
   const handleBtnConfirm = () => {
-    addMoreCard(cardTitle, listId);
-    setCardTitle('');
-    setOpen(false);
+    if (type === "card"){
+      addMoreCard(title, listId);
+      setTitle('');
+      setOpen(false);
+    } else {
+      addMoreList(title);
+      setTitle('');
+      setOpen(false);
+    }
   };
-
-  const handleBlur = () => {
-    setOpen(false);
-    setCardTitle('');
-  }
 
   return(
     <div>
@@ -51,19 +52,19 @@ function InputCard({setOpen, listId}){
           <InputBase
           onChange={handleOnChange} 
           multiline 
-          onBlur={handleBlur}
+          onBlur={() => setOpen(false)}
           fullWidth 
           inputProps= {{
             className: classes.input,
           }}
-          value={cardTitle}
-          placeholder="Enter a title of this card..."
+          value={title}
+          placeholder={type==='card' ? "Enter a title of this card..." : "Add a title for the list"}
           />
         </Paper>
       </div>
       <div className={classes.confirm}>
         <Button className={classes.btnConfirm} onClick={handleBtnConfirm}>
-          Add Card
+          {type === "card" ? "Add Card" : "Add a new list"}
         </Button>
         <IconButton onClick={() => setOpen(false)}>
           <ClearIcon />
