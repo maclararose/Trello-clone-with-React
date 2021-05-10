@@ -53,7 +53,7 @@ function Title({ title, listId }){
               className: classes.input,
             }}
             fullWidth
-            onBlur = {() => setOpen(!open)}
+            onBlur = {handleBlur}
           />
         </div>):
        ( <div className={classes.editableTitleContainer}>
