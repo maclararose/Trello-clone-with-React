@@ -22,7 +22,7 @@
 - [X] update list title
 - [X] drage and drop card in the same list
 - [X] drage and drop card in different list
-- [ ] drage and drop list
+- [X] drage and drop list
 - [ ] navigation bar
 - [ ] sidemenu
 - [ ] Boxmenu
