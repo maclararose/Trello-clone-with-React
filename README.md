@@ -3,7 +3,7 @@
 - [X] Create tasks inside columns;
 - [ ] Can create tags and "tagear" the tasks; (for example: "important", "review")
 - [X] Can create multiple task tables;
-- [ ] Move tasks between columns in a frame;
+- [X] Move tasks between columns in a frame;
 
 # Observations :eyes::
 - It can use any technology;
@@ -21,7 +21,7 @@
 - [X] add new list
 - [X] update list title
 - [X] drage and drop card in the same list
-- [ ] drage and drop card in different list
+- [X] drage and drop card in different list
 - [ ] drage and drop list
 - [ ] navigation bar
 - [ ] sidemenu
