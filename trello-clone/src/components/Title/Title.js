@@ -33,7 +33,7 @@ function Title({ title, listId }){
   const classes = useStyle();
 
   const handleOnChange = (element) => {
-    setNewTitle(element.target. value);
+    setNewTitle(element.target.value);
   };
 
   const handleBlur = () => {

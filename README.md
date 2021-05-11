@@ -20,7 +20,7 @@
 - [X] add card to list
 - [X] add new list
 - [X] update list title
-- [ ] drage and drop card in the same list
+- [X] drage and drop card in the same list
 - [ ] drage and drop card in different list
 - [ ] drage and drop list
 - [ ] navigation bar
