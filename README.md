@@ -23,8 +23,8 @@
 - [X] drage and drop card in the same list
 - [X] drage and drop card in different list
 - [X] drage and drop list
-- [ ] navigation bar
-- [ ] sidemenu
+- [X] navigation bar
+- [X] sidemenu
 - [ ] Boxmenu
 
 ## Status:
